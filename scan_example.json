@@ -1,0 +1,797 @@
+{
+    "id_connection": 2,
+    "schema_list": {
+        "schema_list": [
+            {
+                "schema_name": "sakila",
+                "table_list": [
+                    {
+                        "table_name": "actor",
+                        "column_list": [
+                            {
+                                "column_name": "actor_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "first_name",
+                                "column_type": "FIRST_NAME"
+                            },
+                            {
+                                "column_name": "last_name",
+                                "column_type": "LAST_NAME"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "actor_info",
+                        "column_list": [
+                            {
+                                "column_name": "actor_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "first_name",
+                                "column_type": "FIRST_NAME"
+                            },
+                            {
+                                "column_name": "last_name",
+                                "column_type": "LAST_NAME"
+                            },
+                            {
+                                "column_name": "film_info",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "address",
+                        "column_list": [
+                            {
+                                "column_name": "address_id",
+                                "column_type": "ADDRESS"
+                            },
+                            {
+                                "column_name": "address",
+                                "column_type": "ADDRESS"
+                            },
+                            {
+                                "column_name": "address2",
+                                "column_type": "ADDRESS"
+                            },
+                            {
+                                "column_name": "district",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "city_id",
+                                "column_type": "CITY"
+                            },
+                            {
+                                "column_name": "postal_code",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "phone",
+                                "column_type": "PHONE"
+                            },
+                            {
+                                "column_name": "location",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "category",
+                        "column_list": [
+                            {
+                                "column_name": "category_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "name",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "city",
+                        "column_list": [
+                            {
+                                "column_name": "city_id",
+                                "column_type": "CITY"
+                            },
+                            {
+                                "column_name": "city",
+                                "column_type": "CITY"
+                            },
+                            {
+                                "column_name": "country_id",
+                                "column_type": "COUNTRY"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "country",
+                        "column_list": [
+                            {
+                                "column_name": "country_id",
+                                "column_type": "COUNTRY"
+                            },
+                            {
+                                "column_name": "country",
+                                "column_type": "COUNTRY"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "customer",
+                        "column_list": [
+                            {
+                                "column_name": "customer_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "store_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "first_name",
+                                "column_type": "FIRST_NAME"
+                            },
+                            {
+                                "column_name": "last_name",
+                                "column_type": "LAST_NAME"
+                            },
+                            {
+                                "column_name": "email",
+                                "column_type": "EMAIL"
+                            },
+                            {
+                                "column_name": "address_id",
+                                "column_type": "ADDRESS"
+                            },
+                            {
+                                "column_name": "active",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "create_date",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "customer_list",
+                        "column_list": [
+                            {
+                                "column_name": "ID",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "name",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "address",
+                                "column_type": "ADDRESS"
+                            },
+                            {
+                                "column_name": "zip code",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "phone",
+                                "column_type": "PHONE"
+                            },
+                            {
+                                "column_name": "city",
+                                "column_type": "CITY"
+                            },
+                            {
+                                "column_name": "country",
+                                "column_type": "COUNTRY"
+                            },
+                            {
+                                "column_name": "notes",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "SID",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "film",
+                        "column_list": [
+                            {
+                                "column_name": "film_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "title",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "description",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "release_year",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "language_id",
+                                "column_type": "LANGUAGE"
+                            },
+                            {
+                                "column_name": "original_language_id",
+                                "column_type": "LANGUAGE"
+                            },
+                            {
+                                "column_name": "rental_duration",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "rental_rate",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "length",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "replacement_cost",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "rating",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "special_features",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "film_actor",
+                        "column_list": [
+                            {
+                                "column_name": "actor_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "film_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "film_category",
+                        "column_list": [
+                            {
+                                "column_name": "film_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "category_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "film_list",
+                        "column_list": [
+                            {
+                                "column_name": "FID",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "title",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "description",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "category",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "price",
+                                "column_type": "PRICE"
+                            },
+                            {
+                                "column_name": "length",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "rating",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "actors",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "film_text",
+                        "column_list": [
+                            {
+                                "column_name": "film_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "title",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "description",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "inventory",
+                        "column_list": [
+                            {
+                                "column_name": "inventory_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "film_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "store_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "language",
+                        "column_list": [
+                            {
+                                "column_name": "language_id",
+                                "column_type": "LANGUAGE"
+                            },
+                            {
+                                "column_name": "name",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "nicer_but_slower_film_list",
+                        "column_list": [
+                            {
+                                "column_name": "FID",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "title",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "description",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "category",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "price",
+                                "column_type": "PRICE"
+                            },
+                            {
+                                "column_name": "length",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "rating",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "actors",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "payment",
+                        "column_list": [
+                            {
+                                "column_name": "payment_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "customer_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "staff_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "rental_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "amount",
+                                "column_type": "AMOUNT"
+                            },
+                            {
+                                "column_name": "payment_date",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "rental",
+                        "column_list": [
+                            {
+                                "column_name": "rental_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "rental_date",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "inventory_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "customer_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "return_date",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "staff_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "sales_by_film_category",
+                        "column_list": [
+                            {
+                                "column_name": "category",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "total_sales",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "sales_by_store",
+                        "column_list": [
+                            {
+                                "column_name": "store",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "manager",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "total_sales",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "staff",
+                        "column_list": [
+                            {
+                                "column_name": "staff_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "first_name",
+                                "column_type": "FIRST_NAME"
+                            },
+                            {
+                                "column_name": "last_name",
+                                "column_type": "LAST_NAME"
+                            },
+                            {
+                                "column_name": "address_id",
+                                "column_type": "ADDRESS"
+                            },
+                            {
+                                "column_name": "picture",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "email",
+                                "column_type": "EMAIL"
+                            },
+                            {
+                                "column_name": "store_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "active",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "username",
+                                "column_type": "USERNAME"
+                            },
+                            {
+                                "column_name": "password",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "staff_list",
+                        "column_list": [
+                            {
+                                "column_name": "ID",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "name",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "address",
+                                "column_type": "ADDRESS"
+                            },
+                            {
+                                "column_name": "zip code",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "phone",
+                                "column_type": "PHONE"
+                            },
+                            {
+                                "column_name": "city",
+                                "column_type": "CITY"
+                            },
+                            {
+                                "column_name": "country",
+                                "column_type": "COUNTRY"
+                            },
+                            {
+                                "column_name": "SID",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "store",
+                        "column_list": [
+                            {
+                                "column_name": "store_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "manager_staff_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "address_id",
+                                "column_type": "ADDRESS"
+                            },
+                            {
+                                "column_name": "last_update",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "schema_name": "user_Demo",
+                "table_list": [
+                    {
+                        "table_name": "tbl_user",
+                        "column_list": [
+                            {
+                                "column_name": "user_id",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "user_name",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "user_email",
+                                "column_type": "EMAIL"
+                            },
+                            {
+                                "column_name": "user_password",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "schema_name": "world",
+                "table_list": [
+                    {
+                        "table_name": "city",
+                        "column_list": [
+                            {
+                                "column_name": "ID",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "Name",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "CountryCode",
+                                "column_type": "COUNTRY"
+                            },
+                            {
+                                "column_name": "District",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "Population",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "country",
+                        "column_list": [
+                            {
+                                "column_name": "Code",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "Name",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "Continent",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "Region",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "SurfaceArea",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "IndepYear",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "Population",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "LifeExpectancy",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "GNP",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "GNPOld",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "LocalName",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "GovernmentForm",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "HeadOfState",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "Capital",
+                                "column_type": "CAPITAL"
+                            },
+                            {
+                                "column_name": "Code2",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "countrylanguage",
+                        "column_list": [
+                            {
+                                "column_name": "CountryCode",
+                                "column_type": "COUNTRY"
+                            },
+                            {
+                                "column_name": "Language",
+                                "column_type": "LANGUAGE"
+                            },
+                            {
+                                "column_name": "IsOfficial",
+                                "column_type": "N/A"
+                            },
+                            {
+                                "column_name": "Percentage",
+                                "column_type": "N/A"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
